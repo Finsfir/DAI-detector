@@ -11,36 +11,8 @@
 ### Deployment environment:
 As packet manager I use Anaconda. Firstly create an environment:
     <pre><code>
-    conda create -n ImageAI -c anaconda keras==2.4.3 numpy==1.19.3 pillow==7.0.0 scipy==1.4.1 h5py==2.10.0 matplotlib==3.3.2 opencv-python keras-resnet==0.2.0 jupyter
+    conda create -n <environment-name> --file requirements.txt
     </code></pre>
-Next import Tensorflow:
-    <pre><code>
-    pip install tensorflow==2.4.0
-    </code></pre>
-    <pre><code>
-    pip install tensorflow-gpu==2.4.0
-    </code></pre>
-Check for updates:
-    <pre><code>
-    pip install imageai --upgrade
-    </code></pre>
-Now install libraries:
-    <pre><code>
-    pip install pandas
-    </code></pre>
-    <pre><code>
-    pip install openpyxl
-    </code></pre>
-    <pre><code>
-    pip install pyqt5
-    </code></pre>
-    <pre><code>
-    pip install pyqt5-tools
-    </code></pre>
-    <pre><code>
-    pip install py2exe
-    </code></pre>
-    
     
 ## Annotating Data:
 I use the labelImg annotation tool:
