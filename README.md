@@ -28,4 +28,4 @@ https://github.com/tzutalin/labelImg#hotkeys
 - mmWS - mm clock face workzone
 - mmCH - mm clock hand
 
-## If you need trained YOLO model, you can take it from me
+## If you need trained YOLO model, you can take ask me
