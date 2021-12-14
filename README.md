@@ -11,7 +11,7 @@
 ### Deployment environment:
 As packet manager I use Anaconda. Firstly create an environment:
     <pre><code>
-    conda create -n <environment-name> --file requirements.txt
+    conda create -n "environment-name" --file requirements.txt
     </code></pre>
     
 ## Annotating Data:
